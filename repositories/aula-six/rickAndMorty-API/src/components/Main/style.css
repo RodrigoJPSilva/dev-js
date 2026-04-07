@@ -1,0 +1,28 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 191px;
+    background-color: var(--color-black);
+    padding: 100px 0;
+}
+
+.content-main {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.content-main h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--color-white);
+}
+
+.content-main h1 span {
+    color: var(--color-primary);
+}
+
+.container-btn-main{
+    display: flex;
+}
