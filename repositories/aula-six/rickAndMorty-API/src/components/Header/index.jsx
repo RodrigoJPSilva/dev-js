@@ -1,4 +1,8 @@
-export const Header = ({logoGitHub}) => {
+import './style.css'
+
+import logoGitHub from '../../assets/icons/gitHubIcon.svg'
+
+export const Header = () => {
     return(
         <header>
             <div className="header-wrapper">

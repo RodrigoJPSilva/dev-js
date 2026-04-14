@@ -1,6 +1,6 @@
 header {
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     background-color: var(--color-primary);
     padding: 10px 35px;
@@ -14,4 +14,5 @@ header {
 .header-wrapper a span {
     font-size: 20px;
     font-weight: bold;
+    color: var(--color-black);
 }
